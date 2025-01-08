@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.crowd{
+    font-family: 'Blood Crow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #75AF82;
+}
+
+body{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 29px;
+
+}
