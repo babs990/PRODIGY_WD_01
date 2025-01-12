@@ -35,7 +35,7 @@ zenitsu = document.querySelector('#zenitsu2')
 
 
 nezuko.addEventListener('click',()=>{
-    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','images/nezuko.png')
+    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','/src/images/nezuko.png')
     gsap.from('#tanjiro',{
         translateX :200,
         duration :2.5,
@@ -45,7 +45,7 @@ nezuko.addEventListener('click',()=>{
     document.querySelector('#accroche').setAttribute('style','color: #A56388;')
     document.querySelector('#nezuko2').setAttribute('style','border-color: #A56388 ;')
     document.querySelector('nav').setAttribute('style','border-color: #a5638844;')
-    document.querySelector('#logo').setAttribute('src','images/nezuko.png')
+    document.querySelector('#logo').setAttribute('src','/src/images/nezuko.png')
 
     document.querySelector('#tanjiro2').setAttribute('style','border-color: #fff0 ;')
     document.querySelector('#zenitsu2').setAttribute('style','border-color: #fff0 ;')
@@ -53,7 +53,7 @@ nezuko.addEventListener('click',()=>{
 })
 
 tanjiro.addEventListener('click',()=>{
-    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','images/tanjiro.png')
+    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','/src/images/tanjiro.png')
     gsap.from('#tanjiro',{
         translateX :200,
         duration :2.5,
@@ -63,7 +63,7 @@ tanjiro.addEventListener('click',()=>{
     document.querySelector('#accroche').setAttribute('style','color: #75AF82;')
     document.querySelector('#tanjiro2').setAttribute('style','border-color: #75AF82 ;')
     document.querySelector('nav').setAttribute('style','border-color: #75af8264;')
-    document.querySelector('#logo').setAttribute('src','images/tanjiro.png')
+    document.querySelector('#logo').setAttribute('src','/src/images/tanjiro.png')
 
     document.querySelector('#nezuko2').setAttribute('style','border-color: #fff0 ;')
     document.querySelector('#zenitsu2').setAttribute('style','border-color: #fff0 ;')
@@ -72,7 +72,7 @@ tanjiro.addEventListener('click',()=>{
 })
 
 giyu.addEventListener('click',()=>{
-    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','images/giyu.png')
+    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','/src/images/giyu.png')
     gsap.from('#tanjiro',{
         translateX :200,
         duration :2.5,
@@ -82,7 +82,7 @@ giyu.addEventListener('click',()=>{
     document.querySelector('#accroche').setAttribute('style','color: #28457D;')
     document.querySelector('#giyu2').setAttribute('style','border-color:#28457D ;')
     document.querySelector('nav').setAttribute('style','border-color: #28447d6b;')
-    document.querySelector('#logo').setAttribute('src','images/giyu.png')
+    document.querySelector('#logo').setAttribute('src','/src/images/giyu.png')
 
     document.querySelector('#nezuko2').setAttribute('style','border-color: #fff0 ;')
     document.querySelector('#zenitsu2').setAttribute('style','border-color: #fff0 ;')
@@ -91,7 +91,7 @@ giyu.addEventListener('click',()=>{
 })
 
 zenitsu.addEventListener('click',()=>{
-    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','images/zenitsu.png')
+    document.querySelector('#tanjiro').querySelector('img').setAttribute('src','/src/images/zenitsu.png')
     gsap.from('#tanjiro',{
         translateX :200,
         duration :2.5,
@@ -101,7 +101,7 @@ zenitsu.addEventListener('click',()=>{
     document.querySelector('#accroche').setAttribute('style','color: #E4C060;')
     document.querySelector('#zenitsu2').setAttribute('style','border-color:#E4C060 ;')
     document.querySelector('nav').setAttribute('style','border-color: #e4c1605d;')
-    document.querySelector('#logo').setAttribute('src','images/zenitsu.png')
+    document.querySelector('#logo').setAttribute('src','/src/images/zenitsu.png')
 
     document.querySelector('#nezuko2').setAttribute('style','border-color: #fff0 ;')
     document.querySelector('#giyu2').setAttribute('style','border-color: #fff0 ;')
